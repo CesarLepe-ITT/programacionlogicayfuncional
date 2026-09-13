@@ -215,7 +215,53 @@ No todas las funciones recursivas se pueden transformar fácilmente en recursió
     Asumir que todos los lenguajes optimizan recursión de cola igual; en realidad depende del compilador o intérprete.
 
 Aprender a identificar si una función es de cola y reescribir funciones recursivas estándar en forma de recursión de cola es una habilidad base en programación funcional.
-Conclusiones
+
+### Implementación práctica
+
+Se implementaron dos ejemplos en Elixir para demostrar
+la diferencia entre recursión normal y recursión de cola.
+
+#### Factorial comparativo
+
+```elixir
+defmodule Factorial do
+  def normal(0), do: 1
+  def normal(n) when n > 0, do: n * normal(n - 1)
+
+  def tail(n), do: tail(n, 1)
+  defp tail(0, acc), do: acc
+  defp tail(n, acc) when n > 0, do: tail(n - 1, n * acc)
+end
+```
+
+Ejecución: elixir code/factorial.ex
+Suma de lista
+
+```
+defmodule SumList do
+  def normal([]), do: 0
+  def normal([h | t]), do: h + normal(t)
+
+  def tail(list), do: tail(list, 0)
+  defp tail([], acc), do: acc
+  defp tail([h | t], acc), do: tail(t, h + acc)
+end
+```
+
+Ejecución: elixir code/sum_list.ex
+Resultados verificados
+
+Las evidencias de ejecución se encuentran en:
+
+    evidencia_factorial.txt
+    evidencia_suma.txt
+
+Ambas versiones producen los mismos resultados numéricos.
+La ventaja de la recursión de cola es que usa espacio
+constante de pila, evitando stack overflow con entradas grandes.
+
+
+##Conclusiones
 
 La recursión de cola es una especialización de la recursión que coloca la llamada recursiva en la última posición de la función. Esta restricción estructural permite que muchos compiladores e intérpretes apliquen optimización de llamadas de cola, reutilizando el mismo marco de pila y ejecutando la función en espacio constante. En lenguajes funcionales, donde la recursión constituye el mecanismo principal de iteración y la inmutabilidad limita el uso de contadores mutables, esta optimización es especialmente valiosa.
 
