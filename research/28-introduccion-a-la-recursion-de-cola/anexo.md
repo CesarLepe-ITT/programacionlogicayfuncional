@@ -8,6 +8,9 @@
 - 2026-09-01:  
   Petición adicional para ajustar la investigación según AI_GUIDANCE.md y profundizar en el soporte de recursión de cola en lenguajes funcionales.
 
+- 2026-09-01:
+  "Genera ejemplos en Elixir que comparen recursión normal con recursión de cola usando factorial y suma de lista."
+
 ### Herramientas utilizadas
 
 - Asistente de lenguaje grande (LLM) accesible vía web.
@@ -34,6 +37,8 @@ La IA generó:
   - Reflexión sobre el uso de IA.
   - Énfasis en la necesidad de revisión crítica y verificación independiente.
 
+- Código ejecutable en Elixir (`factorial.ex` y `sum_list.ex`) que compara recursión normal con recursión de cola.
+
 ### Cambios, revisión y validación personal
 
 - Revisé la explicación de recursión de cola y verifiqué la coherencia con definiciones estándar (caso base, llamada de cola, acumuladores).
@@ -48,6 +53,16 @@ La IA generó:
   - Wikipedia (Tail call).
   - Artículos introductorios (Ada Beat, Peerdh).
   - Discusiones técnicas en foros especializados.
+
+### Uso de IA para implementación práctica
+
+- **Prompt adicional**: "Genera ejemplos en Elixir que comparen recursión normal con recursión de cola usando factorial y suma de lista."
+
+- **Resultado**: La IA generó los archivos `factorial.ex` y `sum_list.ex` con código funcional que compila y ejecuta correctamente en Elixir.
+
+- **Cambios realizados**: Revisé cada línea del código generado para asegurar que la sintaxis fuera correcta y que los resultados numéricos fueran consistentes entre ambas versiones (normal y de cola).
+
+- **Reflexión**: La IA generó código funcional sin errores de sintaxis. Lo ejecuté manualmente y verifiqué que los resultados son correctos. La evidencia de ejecución se incluye en `evidencia_factorial.txt` y `evidencia_suma.txt`.
 
 ### Reflexión personal
 
