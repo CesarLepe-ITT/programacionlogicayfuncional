@@ -48,4 +48,4 @@ uso de memoria depende de la implementación y de las operaciones alrededor de
 la llamada; por eso el README habla específicamente de BEAM y evita prometer la
 misma característica para todos los lenguajes. La IA tampoco sustituye las
 fuentes: los datos técnicos se respaldaron con documentación y bibliografía en
-formato IEEE.
+formato IEEE.  
