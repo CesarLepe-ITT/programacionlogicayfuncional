@@ -41,3 +41,4 @@ IO.puts("suma de cola: #{RecursionSegura.suma_cola(valores)}")
 IO.inspect(RecursionSegura.invertir(valores), label: "invertir")
 IO.inspect(RecursionSegura.dividir_cada(valores, 2), label: "dividir entre 2")
 IO.inspect(RecursionSegura.dividir_cada(valores, 0), label: "dividir entre 0")
+
