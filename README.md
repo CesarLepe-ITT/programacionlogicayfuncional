@@ -96,11 +96,8 @@ Al concluir el curso, el estudiante será capaz de:
 - **Tema 2.3:** Recursión y estructuras de datos inmutables
 - **Tema 2.4:** Evaluación perezosa (Lazy Evaluation)
 - **Tema 2.5:** Aplicaciones de la programación funcional
-
-![prolog copy-2](https://github.com/user-attachments/assets/90192e5b-89ae-47b0-91f9-6e5269f6b95e)
-
-
-
+- 
+<img width="575" height="685" alt="Screenshot 2026-09-13 at 6 17 10 p m" src="https://github.com/user-attachments/assets/e22f980d-003c-4c73-97c6-3b468dddc37b" />
 
 
 ### Unidad 3: Programación Lógica

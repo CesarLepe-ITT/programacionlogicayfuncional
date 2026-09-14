@@ -1,3 +1,6 @@
+<img width="1122" height="1402" alt="Filosofia de la terminal" src="https://github.com/user-attachments/assets/b50239b4-27e9-4da0-b9bd-5fe7a9cecd83" />
+
+
 # Instalación de entornos — Ubuntu Linux ARM64
 
 Guías de instalación **independientes** para replicar el entorno del curso.
