@@ -4,6 +4,22 @@
 **Alumno:** Stephanie Ariana Medrano Vargas - 23212013
 
 ---
+ 
+## Tabla de Contenidos
+ 
+1. [Introducción](#introducción)
+2. [Desarrollo técnico](#desarrollo-técnico)
+   - 2.1 [Caso base, caso recursivo y medida de progreso](#1-caso-base-caso-recursivo-y-medida-de-progreso)
+   - 2.2 [Desbordamiento de pila y trabajo pendiente](#2-desbordamiento-de-pila-y-trabajo-pendiente)
+   - 2.3 [Ejemplo ejecutable y manejo explícito del error](#3-ejemplo-ejecutable-y-manejo-explícito-del-error)
+   - 2.4 [Estrategia de revisión antes de ejecutar](#4-estrategia-de-revisión-antes-de-ejecutar)
+3. [Conclusiones](#conclusiones)
+4. [Bibliografía](#bibliografía)
+
+**Archivos asociados:**
+- [`errores_recursion.exs`](errores_recursion.exs) — Ejemplos ejecutables en Elixir
+- [`anexo.md`](anexo.md) — Información adicional
+---
 
 ## Introducción
 
