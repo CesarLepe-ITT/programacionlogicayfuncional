@@ -1,5 +1,14 @@
 # Anexo 1.1 Investigación via Pull Request
+
+# Informascion del estudiante
   Alumno: Cesar Adrian Luis Juan Camacho
+  
+  Materia: Programación Lógica y Funcional
+  
+  Horario: 4:00 - 5:00 PM
+  
+  Tema: Recursión como alternativa a los bucles: caso base y caso recursivo
+  
 ---
 
 ## 1. Prompts utilizados
@@ -45,7 +54,23 @@ Para un próximo trabajo, haría dos cosas distintas: (1) ejecutar directamente 
 
 ---
 
-## 5. Datos finales
+## 5. Bibliografía (formato IEEE)
+
+[1] S. Thompson, *Haskell: The Craft of Functional Programming*, 3rd ed. Harlow, U.K.: Addison-Wesley, 2011.
+
+[2] H. Abelson and G. J. Sussman, *Structure and Interpretation of Computer Programs*, 2nd ed. Cambridge, MA, USA: MIT Press, 1996.
+
+[3] J. Armstrong, R. Virding, C. Wikström, and M. Williams, *Concurrent Programming in Erlang*, 2nd ed. Hemel Hempstead, U.K.: Prentice Hall, 1996.
+
+[4] R. Bird, *Thinking Functionally with Haskell*. Cambridge, U.K.: Cambridge University Press, 2014.
+
+[5] The Elixir Team, "Recursion — Elixir School / Elixir official guides," *Elixir Lang*. [Online]. Available: https://elixir-lang.org/getting-started/recursion.html. [Accessed: 11-Sep-2026].
+
+[6] Rich Hickey et al., "Clojure — Functions (recur)," *Clojure.org Official Documentation*. [Online]. Available: https://clojure.org/reference/special_forms#recur. [Accessed: 11-Sep-2026].
+
+---
+
+## 6. Datos finales
 
 * **Fecha de la asistencia IA:** 11 de septiembre de 2026
 * **Versión de entrega/práctica:** 1.1 Investigación via Pull Request
