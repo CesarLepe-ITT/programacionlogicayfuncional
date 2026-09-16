@@ -194,3 +194,17 @@ El diagrama ilustra la fase de **expansión** (creación de marcos de pila hasta
 ```
 
 Este ejemplo evidencia que la recursión no se limita a estructuras lineales (listas, números): es el mecanismo natural para recorrer cualquier estructura de datos definida inductivamente, como árboles y grafos acíclicos.
+
+## 5. Bibliografía (formato IEEE)
+
+[1] S. Thompson, *Haskell: The Craft of Functional Programming*, 3rd ed. Harlow, U.K.: Addison-Wesley, 2011.
+
+[2] H. Abelson and G. J. Sussman, *Structure and Interpretation of Computer Programs*, 2nd ed. Cambridge, MA, USA: MIT Press, 1996.
+
+[3] J. Armstrong, R. Virding, C. Wikström, and M. Williams, *Concurrent Programming in Erlang*, 2nd ed. Hemel Hempstead, U.K.: Prentice Hall, 1996.
+
+[4] R. Bird, *Thinking Functionally with Haskell*. Cambridge, U.K.: Cambridge University Press, 2014.
+
+[5] The Elixir Team, "Recursion — Elixir School / Elixir official guides," *Elixir Lang*. [Online]. Available: https://elixir-lang.org/getting-started/recursion.html. [Accessed: 11-Sep-2026].
+
+[6] Rich Hickey et al., "Clojure — Functions (recur)," *Clojure.org Official Documentation*. [Online]. Available: https://clojure.org/reference/special_forms#recur. [Accessed: 11-Sep-2026].
