@@ -8,7 +8,7 @@ La IA se utilizó para ayudar a organizar la información, mejorar la redacción
 
 ---
 
-## Bitácora de consultas
+## Prompts utilizados
 
 ### Consulta 1
 
@@ -26,30 +26,6 @@ Se obtuvo una estructura inicial para organizar la investigación sobre Erlang, 
 
 **Prompt:**
 
-> “Acomoda la información que te di sobre la instalación y configuración de cada entorno.”
-
-**Resultado:**
-
-Se amplió la información sobre los métodos de instalación, requisitos, configuración y comandos básicos de verificación y se colocó en cada sección correspondiente.
-
----
-
-### Consulta 3
-
-**Prompt:**
-
-> “Con la información que tenemos ayudame a comparar los distintos sistema compatibles ”
-
-**Resultado:**
-
-Se agregó una comparación de los sistemas operativos compatibles y posteriormente esta información se colocó dentro de la sección correspondiente a cada entorno.
-
----
-
-### Consulta 4
-
-**Prompt:**
-
 > “Acomoda los enlaces oficiales para descargar o instalar cada entorno.”
 
 **Resultado:**
@@ -58,11 +34,11 @@ Se agregaron enlaces oficiales de Erlang/OTP, GHCup, Elixir y Clojure. También 
 
 ---
 
-### Consulta 5
+### Consulta 3
 
 **Prompt:**
 
-> “Revisa la investigación y ayúdame a mejorar la versión final en Markdown.”
+> “Revisa la investigación y avísame de posibles errores o correcciones.”
 
 **Resultado:**
 
@@ -76,6 +52,4 @@ El uso de ChatGPT fue útil para organizar la investigación, mejorar algunas ex
 
 Durante el proceso fue necesario realizar cambios. Por ejemplo, se detectó que faltaba explicar los sistemas operativos compatibles y posteriormente se decidió colocar esta información dentro de cada entorno. También se observó que no todos los lenguajes cuentan con un instalador descargable tradicional, por lo que se corrigió la sección para hablar de **enlaces de descarga e instalación**.
 
-Otra corrección importante fue especificar que las instalaciones no fueron realizadas personalmente. Por esta razón, los comandos y ejemplos se presentan únicamente como procedimientos documentados y resultados esperados.
-
-La IA facilitó la organización y redacción del trabajo, pero fue necesario revisar las respuestas y consultar las fuentes utilizadas, ya que la información generada puede ser incompleta, incorrecta o quedar desactualizada. Por ello, considero que la IA funcionó como una herramienta de apoyo y no como sustituto de la investigación y revisión del estudiante.
+La IA facilitó la organización y redacción del trabajo, pero fue necesario revisar las respuestas y consultar las fuentes utilizadas, ya que la información generada puede ser incompleta, incorrecta o quedar desactualizada. Por ello, considero que la IA funcionó unicamente como una herramienta de apoyo.
