@@ -16,6 +16,14 @@ cada tema conecta directamente con sistemas que corren en producción hoy.
 
 ---
 
+## Recursos de apoyo
+
+| Recurso | Contenido |
+|---------|-----------|
+| [debugger/](../debugger/) | Cómo depurar programas Erlang: shell interactivo, `dbg`, `try/catch`, EUnit y recomendaciones profesionales |
+
+---
+
 ## Objetivo general de la unidad
 
 Romper el modelo mental imperativo/OOP que el alumno trae de semestres anteriores.

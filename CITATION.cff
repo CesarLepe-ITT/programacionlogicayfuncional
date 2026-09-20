@@ -12,9 +12,9 @@ authors:
   - family-names: Solís Reyes
     given-names: René
     alias: IoTeacher
-    affiliation: "Tecnológico Nacional de México Campus Tijuana"
+    affiliation: "TecNM Campus Instituto Tecnológico de Tijuana"
     email: rene.solis@tectijuana.edu.mx
-    orcid: ""
+    orcid: "https://orcid.org/0000-0002-0334-5595"
 repository-code: "https://github.com/tectijuana/programacionlogicayfuncional"
 url: "https://github.com/tectijuana/programacionlogicayfuncional"
 license: GPL-3.0

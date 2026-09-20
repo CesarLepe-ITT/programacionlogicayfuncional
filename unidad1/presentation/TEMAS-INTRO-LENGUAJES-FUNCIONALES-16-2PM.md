@@ -27,6 +27,8 @@ funcionales más populares hoy** (Haskell, Elixir, Scala, Clojure). Cabe en
 
 ---
 
+<img width="1198" height="885" alt="image" src="https://github.com/user-attachments/assets/c0097842-5f47-4454-bc75-4db7c0e852e6" />
+
 ## Asignación de equipos (grupo 2pm, 16 estudiantes · corte 08/09/26)
 
 Roster en orden de lista; bloques de 4. Roles internos: **(1)** contexto/historia ·
@@ -84,10 +86,7 @@ secciones **"Qué debe mostrar cada exposición"**, **"Medio de presentación"**
 
 Resumen: 12–15 min · diapositivas PDF al PR antes de la sesión · demo en vivo en
 la laptop del equipo (REPL + "Hola Paradigma" 1..10 + 2.º ejemplo idiomático) ·
-grabación asciinema cloud obligatoria como respaldo · rúbrica /100
-(demo 35 · dominio 25 · comparación y caso real 15 · claridad y tiempo 10 ·
-participación individual 15).
-
+grabación asciinema cloud obligatoria como respaldo 
 ---
 
 *Referencias: [`../README.md`](../README.md), [`../../SYLLABUS.md`](../../SYLLABUS.md),
