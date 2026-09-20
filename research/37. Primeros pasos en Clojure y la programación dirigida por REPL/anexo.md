@@ -7,8 +7,7 @@
 
 - **Herramientas utilizadas**:
   - ChatGPT
-  - GitHub Web
-  - Documentación oficial de Clojure
+  - Gemini
 
 - **Cambios y validación**:
   - Se redujo la cantidad de información porque algunas secciones repetían la misma explicación sobre el funcionamiento y las ventajas del REPL.
@@ -24,4 +23,4 @@
   El proceso me permitió comprender que la IA puede ser una herramienta útil para investigar y organizar información, pero sus respuestas deben revisarse y compararse con fuentes confiables antes de utilizarlas en un trabajo académico.
 
 - **Fecha**: 2026-09-15
-- **Plataforma utilizada**: GitHub Web para la elaboración de los archivos `README.md` y `anexo.md`; documentación oficial de Clojure para la validación de conceptos.
+- **Plataforma utilizada**: GitHub Web para la elaboración de los archivos `README.md` y `anexo.md`.
