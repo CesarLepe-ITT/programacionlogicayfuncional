@@ -186,16 +186,12 @@ Su funcionamiento se divide en cuatro etapas:
 
 El proceso puede representarse de la siguiente manera:
 
-```text
-READ
-  ↓
-EVAL
-  ↓
-PRINT
-  ↓
-LOOP
-  ↓
-READ...
+```mermaid
+flowchart TD
+    A[READ<br/>Leer la expresión] --> B[EVAL<br/>Evaluar la expresión]
+    B --> C[PRINT<br/>Mostrar el resultado]
+    C --> D[LOOP<br/>Esperar una nueva entrada]
+    D --> A
 ```
 
 En una sesión de Clojure puede aparecer un indicador como:
@@ -240,24 +236,19 @@ La **programación dirigida por REPL** consiste en utilizar este entorno interac
 
 En lugar de escribir una gran cantidad de código antes de comprobar su funcionamiento, el programador puede trabajar con pequeñas expresiones o funciones y evaluarlas mientras construye la solución.
 
-El proceso puede representarse así:
+El proceso del REPL puede representarse de la siguiente manera:
 
-```text
-Pensar una idea
-      ↓
-Escribir una expresión
-      ↓
-Evaluarla en el REPL
-      ↓
-Observar el resultado
-      ↓
-¿Funciona como se esperaba?
-    /             \
-   Sí              No
-   ↓                ↓
-Continuar       Modificar
-                    ↓
-             Volver a evaluar
+```mermaid
+flowchart TD
+    A[Pensar una idea] --> B[Escribir una expresión]
+    B --> C[Evaluarla en el REPL]
+    C --> D[Observar el resultado]
+    D --> E{¿Funciona como se esperaba?}
+
+    E -->|Sí| F[Continuar]
+    E -->|No| G[Modificar]
+
+    G --> C
 ```
 
 Este tipo de trabajo permite que el desarrollo sea más gradual. Si una función no produce el resultado esperado, puede modificarse y probarse nuevamente antes de continuar con otras partes del programa.
