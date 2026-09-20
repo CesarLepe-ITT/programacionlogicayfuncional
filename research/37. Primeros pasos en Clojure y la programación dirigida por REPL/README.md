@@ -236,7 +236,7 @@ La **programación dirigida por REPL** consiste en utilizar este entorno interac
 
 En lugar de escribir una gran cantidad de código antes de comprobar su funcionamiento, el programador puede trabajar con pequeñas expresiones o funciones y evaluarlas mientras construye la solución.
 
-El proceso del REPL puede representarse de la siguiente manera:
+El proceso de trabajo dirigido por REPL puede representarse de la siguiente manera:
 
 ```mermaid
 flowchart TD
@@ -312,5 +312,3 @@ Después de realizar esta investigación se puede concluir que el REPL es una de
 [4] Clojure, “The Reader,” *Clojure Reference*. [En línea]. Disponible en: https://clojure.org/reference/reader. [Consultado: 15-sep-2026].
 
 [5] Clojure, “Evaluation,” *Clojure Reference*. [En línea]. Disponible en: https://clojure.org/reference/evaluation. [Consultado: 15-sep-2026].
-
-[6] A. Miller, S. Halloway and A. Bedra, *Programming Clojure*, 3rd ed. Raleigh, NC, USA: The Pragmatic Programmers, 2018.
