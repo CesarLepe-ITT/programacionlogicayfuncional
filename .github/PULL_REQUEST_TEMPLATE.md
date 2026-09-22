@@ -123,4 +123,3 @@ Entiendo que el plagio total o parcial invalida la entrega.
 - [ ] No modifiqué archivos de otros compañeros, ni la estructura de directorios
 - [ ] Verifiqué que mi carpeta está nombrada correctamente con la unidad/tema asignado
 - [ ] La evidencia de ejecución (asciinema/LOOM) está enlazada arriba
-- [ ] De haber intervenido AI redacción o apoyo de LLM debe de llenar ANEXO.md con los prompts y demas ver raiz del repositorio
