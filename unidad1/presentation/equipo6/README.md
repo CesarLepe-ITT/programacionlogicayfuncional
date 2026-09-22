@@ -13,7 +13,7 @@
 ## Datos del lenguaje
 
 - **Año / origen:** 2007 (Rich Hickey)
-- **Creador(es):** _(completar)_
+- **Creador(es):** Rich Hickey
 - **Modelo de evaluación:** estricto; secuencias perezosas (`lazy-seq`)
 - **Sistema de tipos:** dinámico; sobre la JVM; estructuras persistentes e inmutables
 - **REPL / herramienta:** `clj` / `clojure`
@@ -60,7 +60,7 @@ Salida esperada:
 
 ## Grabación de respaldo (asciinema cloud)
 
-- URL: _(pegar la URL de asciinema.org tras `asciinema upload`)_
+- URL: [ASCIINEMA URL)_](https://asciinema.org/a/enYsUlEDs9icN9HW)]
 - Cómo: `asciinema rec demo.cast` → `asciinema upload demo.cast`
 
 ## Diapositivas
@@ -69,10 +69,8 @@ Salida esperada:
 
 ## Bibliografía (IEEE)
 
-1. _(fuente 1)_
-2. _(fuente 2)_
-3. _(fuente 3)_
-
+[1] colaboradores de Wikipedia, «Clojure», Wikipedia, la Enciclopedia Libre, 31 de octubre de 2025. https://es.wikipedia.org/wiki/Clojure «Clojure». https://clojure.org/
+[2] «Clojure». https://clojure.org/
 ---
 
 Rúbrica, medio de presentación y reglas: [`../TEMAS-INTRO-LENGUAJES-FUNCIONALES-40.md`](../TEMAS-INTRO-LENGUAJES-FUNCIONALES-40.md)
