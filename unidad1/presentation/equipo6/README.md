@@ -69,8 +69,8 @@ Salida esperada:
 
 ## Bibliografía (IEEE)
 
-[1] colaboradores de Wikipedia, «Clojure», Wikipedia, la Enciclopedia Libre, 31 de octubre de 2025. https://es.wikipedia.org/wiki/Clojure «Clojure». https://clojure.org/
-[2] «Clojure». https://clojure.org/
+- [1] colaboradores de Wikipedia, «Clojure», Wikipedia, la Enciclopedia Libre, 31 de octubre de 2025. https://es.wikipedia.org/wiki/Clojure «Clojure». https://clojure.org/
+- [2] «Clojure». https://clojure.org/
 ---
 
 Rúbrica, medio de presentación y reglas: [`../TEMAS-INTRO-LENGUAJES-FUNCIONALES-40.md`](../TEMAS-INTRO-LENGUAJES-FUNCIONALES-40.md)
