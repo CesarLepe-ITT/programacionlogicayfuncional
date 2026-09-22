@@ -168,6 +168,21 @@ fact(N) when N > 0 ->
 
 La comparación revela que la sintaxis de cada lenguaje refleja su historia y su comunidad. Haskell prioriza la elegancia matemática y la composición; Elixir y Erlang apuestan por la claridad modular y la concurrencia; OCaml mantiene la tradición ML de expresividad y tipado fuerte; Clojure abraza la homogeneidad de los S-expressions y la metaprogramación. Para un estudiante de programación funcional, comprender estas diferencias no solo facilita el aprendizaje de nuevos lenguajes, sino que también ayuda a elegir la herramienta adecuada según el problema: Haskell para razonamiento puro, Elixir/Erlang para sistemas distribuidos y tolerantes a fallos, OCaml para aplicaciones financieras de alto rendimiento, y Clojure para procesamiento de datos con inmutabilidad.
 
+## Evidencia de ejecución
+
+La demostración de los cinco ejemplos compilando y ejecutándose está disponible en asciinema:
+
+[![asciicast](https://asciinema.org/a/hlwfJhO5F8HLqz7k.svg)](https://asciinema.org/a/hlwfJhO5F8HLqz7k)
+
+**Comandos ejecutados:**
+```bash
+ghc Fact.hs -o fact && ./fact       # Haskell  → 120
+elixir fact.exs                     # Elixir   → 120
+ocaml fact.ml                       # OCaml    → 120
+clojure fact.clj                    # Clojure  → 120
+erlc factorial.erl && erl -noshell -eval "..."  # Erlang → 120
+```
+
 ## Bibliografía (formato IEEE)
 
 [1] Haskell.org, "A Gentle Introduction to Haskell: Functions," Haskell 98 Tutorial. [En línea]. Disponible: https://www.haskell.org/tutorial/functions.html
