@@ -78,6 +78,10 @@ El semestre Agosto–Diciembre 2026 comprende **16 semanas** lectivas más una s
 
 ## Evaluación
 
+> Rúbrica detallada de prácticas (100 pts, incluye declaración de uso de IA) en
+> [`GRADING.md`](GRADING.md). Rúbrica de PRs de documentos/investigaciones en
+> [`REVIEW_RUBRIC.md`](REVIEW_RUBRIC.md). Lineamientos de uso de IA en [`AI_GUIDANCE.md`](AI_GUIDANCE.md).
+
 ### Calificación semestral
 
 | Rubro | Peso |

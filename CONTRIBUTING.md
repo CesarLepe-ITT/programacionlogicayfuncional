@@ -33,6 +33,10 @@ Requisitos adicionales:
 - Usar `Maybe`/`Either` en Haskell — nunca funciones parciales (`head`, `tail`) sin pattern matching exhaustivo
 - Incluir al menos 3 tests plunit por módulo Prolog nuevo
 - Contexto en ejemplos: preferir datos mexicanos ficticios (CURP, RFC, TecNM, IMSS)
+- Si usaste asistencia de IA, incluir `ANEXO.md` conforme a [`AI_GUIDANCE.md`](AI_GUIDANCE.md)
+
+La rúbrica completa de evaluación está en [`GRADING.md`](GRADING.md) (prácticas de código)
+y [`REVIEW_RUBRIC.md`](REVIEW_RUBRIC.md) (PRs de documentos/investigaciones).
 
 ## Proceso
 

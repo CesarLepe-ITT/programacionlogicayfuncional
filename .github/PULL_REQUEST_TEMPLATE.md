@@ -80,27 +80,28 @@ Confirme que su entrega cumple con los criterios técnicos:
 
 ---
 
+## 🤖 Declaración de Asistencia de IA
+
+- [ ] Incluí `ANEXO.md` en mi carpeta de entrega con el nivel de participación de IA (0–4),
+  prompts, cambios y validación, conforme a [`AI_GUIDANCE.md`](../AI_GUIDANCE.md)
+- **Nivel declarado:** <!-- 0-4, ver AI_GUIDANCE.md -->
+
+> Si declaraste nivel 3 o 4, tu `ANEXO.md` debe incluir la "Explicación propia de una
+> decisión técnica central" — sin eso, la calificación de este criterio se ajusta a la
+> comprensión propia demostrada, conforme a [`GRADING.md`](../GRADING.md).
+
+---
+
 ## 🔍 Observaciones para el Maintainer (Docente)
 
 ---
 
 # 📊 Rúbrica de Evaluación – Pull Request
 
-**Ingeniería en Sistemas Computacionales**
-**Materia: Programación Lógica y Funcional**
-**Valor total: 100 puntos**
-
-| Criterio de Evaluación | Descripción del Desempeño Esperado | Valor |
-|---|---|---|
-| 📁 Estructura del Repositorio | Carpeta nombrada y ubicada correctamente según la unidad/tema. Organización limpia y coherente. | 10 pts |
-| 📄 Uso correcto del Template | Pull Request completo siguiendo el template oficial sin omisiones. | 5 pts |
-| ⚙️ Funcionalidad y Correctitud | El código compila/carga y produce el resultado esperado (código que no compila = 0 en este ítem). | 25 pts |
-| 🧪 Pruebas y Verificación | Tests (EUnit/plunit/etc.) presentes y pasando; comandos de verificación reproducibles. | 15 pts |
-| 🧩 Calidad de Código | Sigue los estándares del curso (OTP behaviors, `.mli` en OCaml, aridad/determinismo en Prolog, etc.). | 15 pts |
-| 🎬 Evidencia de Ejecución | asciinema/LOOM/Stitch según aplique, mostrando la ejecución real. | 10 pts |
-| 📚 Referencias Académicas | Fuentes confiables, correctamente citadas. | 10 pts |
-| ✍️ Redacción Técnica | Claridad, coherencia y uso apropiado de terminología del paradigma. | 5 pts |
-| 🔄 Flujo de Contribución | PR correctamente generado, sin afectar archivos de otros compañeros. | 5 pts |
+Este PR se evalúa con la rúbrica de 100 pts de [`GRADING.md`](../GRADING.md) (prácticas de
+código) o, si es un PR de documento/investigación, con [`REVIEW_RUBRIC.md`](../REVIEW_RUBRIC.md).
+Ambas incluyen el criterio de **Declaración de IA / Aporte Propio**, ligado a los niveles de
+[`AI_GUIDANCE.md`](../AI_GUIDANCE.md).
 
 ---
 
